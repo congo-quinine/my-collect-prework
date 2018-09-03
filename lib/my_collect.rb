@@ -8,6 +8,7 @@
     end
     puts 'Return Value'
     collection_return
+    array
   end
 
 array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
