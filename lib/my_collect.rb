@@ -3,6 +3,7 @@
     i=0
     while i < array.length
       yield array[i]
+      collect_return.push(array[name])
       i += 1
     end
     puts 'Return Value'
