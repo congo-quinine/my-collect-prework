@@ -7,7 +7,6 @@
       i += 1
     end
     puts 'Return Value'
-    collection_return
     array
   end
 
