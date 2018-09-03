@@ -1,12 +1,13 @@
   def my_collect(array)
+    collect_return = []
     i=0
     while i < array.length
       yield array[i]
-      array[i] == array[i]
+       collect_return << i
       i += 1
     end
     puts 'Return Value'
-    array
+    collect_return
   end
 
 array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
