@@ -4,7 +4,6 @@
       yield array[i]
       i += 1
     end
-    my_collect(array)
   end
   
   collection = ['ruby', 'javascript', 'python', 'objective-c']
